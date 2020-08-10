@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "c:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "c:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "c:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "c:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\Wayfahrer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "c:\\Users\\Wayfahrer\\source\\repos\\C# Projects\\ASP.Net\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
