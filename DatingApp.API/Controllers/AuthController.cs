@@ -7,10 +7,10 @@ namespace DatingApp.API.Controllers
 {
   [Route ("api/[controller]")]
   [ApiController]
-  public class AuthControler : ControllerBase
+  public class AuthController : ControllerBase
   {
     private readonly IAuthRepository repo;
-    public AuthControler (IAuthRepository repo)
+    public AuthController (IAuthRepository repo)
     {
       this.repo = repo;
 
