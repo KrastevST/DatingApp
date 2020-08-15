@@ -30,7 +30,7 @@ namespace DatingApp.API.Controllers
     {
       userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
 
-      if(await this.repo.UserExists(userForRegisterDto.Username))
+      if (await this.repo.UserExists(userForRegisterDto.Username))
         return BadRequest("Username already exists");
 
       var userToCreate = new User
@@ -48,11 +48,10 @@ namespace DatingApp.API.Controllers
     {
       var userFromRepo = await this.repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
 
-      if(userFromRepo == null)
+      if (userFromRepo == null)
         return Unauthorized();
 
-      var claims = new []
-      {
+      var claims = new[] {
         new Claim(ClaimTypes.NameIdentifier, userFromRepo.Id.ToString()),
         new Claim(ClaimTypes.Name, userFromRepo.Username)
       };
