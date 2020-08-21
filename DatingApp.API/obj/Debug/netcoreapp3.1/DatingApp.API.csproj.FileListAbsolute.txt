@@ -67,3 +67,4 @@ C:\Users\Wayfahrer\source\repos\C# Projects\ASP.Net\DatingApp\DatingApp.API\bin\
 C:\Users\Wayfahrer\source\repos\C# Projects\ASP.Net\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Wayfahrer\source\repos\C# Projects\ASP.Net\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Wayfahrer\source\repos\C# Projects\ASP.Net\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Wayfahrer\source\repos\C# Projects\ASP.Net\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
